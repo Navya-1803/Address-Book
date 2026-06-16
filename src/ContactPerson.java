@@ -55,7 +55,7 @@ public class ContactPerson {
         return state;
     }
 
-    public void setState(){
+    public void setState(String state){
         this.state = state;
     }
 
@@ -86,8 +86,8 @@ public class ContactPerson {
     @Override
     public String toString() {
         return "Contact: " + firstName + " " + lastName +
-                "Address: " + address + " " + city + " " + state + " " + zip +
-                "Phone Number: " + phoneNumber +
-                "Email: " + email;
+                ", Address: " + address + " " + city + " " + state + " " + zip +
+                ", Phone Number: " + phoneNumber +
+                ", Email: " + email;
     }
 }
